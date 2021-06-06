@@ -8,8 +8,8 @@
         tools:context=".Connect">
 
     <EditText
-            android:layout_width="327dp"
-            android:layout_height="47dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:hint="IP"
             android:background="#AFEEEE"
@@ -22,8 +22,8 @@
             app:layout_constraintHorizontal_bias="0.5"/>
 
     <EditText
-            android:layout_width="327dp"
-            android:layout_height="47dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:inputType="number"
             android:hint="Port"
             android:background="#AFEEEE"
@@ -37,8 +37,8 @@
 
     <Button
             android:text="Connect"
-            android:layout_width="303dp"
-            android:layout_height="50dp" tools:layout_editor_absoluteY="209dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="209dp"
             android:background="#FF4500"
             tools:layout_editor_absoluteX="148dp"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="@+id/editText"
