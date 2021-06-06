@@ -16,8 +16,9 @@ public class Changed implements EventChange {
     public void joystickChanged(double angle, double strength) {
         //we want to move a certain percent of whats gonna come out for rudder and elevator
         strength = strength/100;
-        this.remote.VM_setAileron(strength * Math.sin(Math.toRadians(angle)));
-        this.remote.VM_setElevator(strength * Math.cos(Math.toRadians(angle)));
+        //up and down is elevator, right left is Aileron
+        this.remote.VM_setElevator(strength * Math.sin(Math.toRadians(angle)));
+        this.remote.VM_setAileron(strength * Math.cos(Math.toRadians(angle)));
     }
 
     @Override
