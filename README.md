@@ -2,7 +2,7 @@
 Author: Shmuel Yaish
 This project for my university course Advanced Programming 2
 
-Introduction: I created a phone application that acts as a remote control for the desktop flight gear airplane
+Introduction: I created an android application that acts as a remote control for the desktop flight gear airplane
 Video presentation: 
 Part I: https://www.youtube.com/watch?v=slk8ThRlRyg
 Part II: https://www.youtube.com/watch?v=8mzoYDJU1n0
@@ -22,4 +22,8 @@ How to use:
 12) Have a safe flight!
 
 How to install app on android:
-Download the zip folder
+1) Download the zip folder "FlightRemote.zip"
+2) Open the project on intellij
+3) connect android that is in developer mode and has USB debugging enabled
+4) Install the app through intellij on to android
+5) Open the app "FlightRemote"
