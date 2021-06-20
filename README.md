@@ -3,6 +3,7 @@ Author: Shmuel Yaish
 This project for my university course Advanced Programming 2
 
 Introduction: I created an android application that acts as a remote control for the desktop flight gear airplane
+Note: app works best with a 5.8 inch screen in portrait
 Video presentation: 
 Part I: https://www.youtube.com/watch?v=slk8ThRlRyg
 Part II: https://www.youtube.com/watch?v=8mzoYDJU1n0
