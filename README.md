@@ -12,7 +12,7 @@ How to use:
 1) Install the flight gear app on your computer from this site https://www.flightgear.org/
 2) Open flight gear on your computer
 3) Go to settings and scroll down
-4) put this in the box on the bottom     --telnet=socket,in,10,127.0.0.1,8080,tcp
+4) Put this in the box on the bottom     --telnet=socket,in,10,127.0.0.1,8080,tcp
 5) That will tell it to open a tcp socket on local host at port 8080. You can choose a different port if you'd like
 6) Open the mobile app on your phone.
 7) Type in your computers IP address in IP, and port in port.
@@ -25,6 +25,6 @@ How to use:
 How to install app on android:
 1) Download the zip folder "FlightRemote.zip"
 2) Open the project on intellij
-3) connect android that is in developer mode and has USB debugging enabled
+3) Connect android that is in developer mode and has USB debugging enabled
 4) Install the app through intellij on to android
 5) Open the app "FlightRemote"
